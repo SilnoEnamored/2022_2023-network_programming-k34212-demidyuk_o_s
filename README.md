@@ -6,4 +6,6 @@ Group: K34212
 Author: Demidyuk Oleg Sergeevich  
 Lab: Lab1  
 Date of create: 28.11.2022  
-Date of finished: ...  
+Date of finished: ... 
+
+Цель работы: Развернуть виртаульную машину на Яндекс Облаке с установленной системой контроля конфигурации Ansible, установка CHR в VirtualBox и организовать VPN между ними.   
