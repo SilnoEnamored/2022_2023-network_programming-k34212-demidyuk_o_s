@@ -51,7 +51,7 @@ Date of finished: ...
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/12.jpg)
 
-11. При помощи WinBox настроили Peer WireGuard на CHR машине. Публичный ключи взяли из сгенерирована ключа на удаленной виртуальной машине. 
+11. При помощи WinBox настроили Peer WireGuard на CHR машине. Публичный ключ взяли из ключа на удаленной виртуальной машине. 
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/13.jpg)
 
