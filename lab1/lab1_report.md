@@ -10,9 +10,14 @@ Date of finished: ...
 
 Цель работы: Развернуть виртаульную машину на Яндекс Облаке с установленной системой контроля конфигурации Ansible, установка CHR в VirtualBox и организовать VPN между ними.   
 Ход работы:
-1. Была создана виртульная машина на Yandex Cloud на Ubuntu и обновлена операционная система.  
+1. Была создана виртульная машина на Yandex Cloud на Ubunt, установлено соединение по ssh. Обновлена операционная система.  
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/1.jpg)
 2. На виртуальную машину установлен python3.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/2.jpg)
 3. Так же установлен Ansible.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/3.jpg)
+4. Создана виртуальная машина CHR в VirtualBox.
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/4.jpg)
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/5.jpg)
+5. Так как было решено работать с MikroTik при помощи графичесокго интерфейса WinBox, то была создана новая виртуальная машина CHR с версией MikroTik 7.6.
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/6.jpg)
