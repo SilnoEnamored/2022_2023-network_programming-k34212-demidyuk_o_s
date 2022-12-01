@@ -29,7 +29,7 @@ Date of finished: ...
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/10.jpg)
 9. Далее был настроен wg0.conf Interface и Peer wireguard на удаленной виртуальной машине. ListenPort взяли любой свободный порт, приватный ключ взяли из прошлого шага. Публичный ключ(ключ CHR) сгенерировали при помощи WinBox и вставили сюда.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/11.jpg)
-10. При помощи WinBox настроили Interface WireGuard на CHR машине. Сгенерировали пару ключей ListenPort использовали такойже, как в предыдущем шаге.
+10. При помощи WinBox настроили Interface WireGuard на CHR машине.Сгенерировали пару ключей. ListenPort использовали такойже, как в предыдущем шаге.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/12.jpg)
 11. При помощи WinBox настроили Peer WireGuard на CHR машине. Публичный ключи взяли из сгенерирована ключа на удаленной виртуальной машине. 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/13.jpg)
