@@ -40,3 +40,4 @@ Date of finished: ...
 14. Проверили существование VPN тунеля между машинами при помощи ping.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/16.jpg)
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/17.jpg)
+Вывод: В ходе выполнения работы были созданы две виртуальные машины (Unbuntu и CHR). Между ними был создан VPN тунель WireGuard. Для работы с RouterOS очень удобно использовать графический интерфейс WinBox. Необходимо быть очень внимательным с Ip и публичными ключами, если допустить ошибку, то ничего работать не будет совсем.
