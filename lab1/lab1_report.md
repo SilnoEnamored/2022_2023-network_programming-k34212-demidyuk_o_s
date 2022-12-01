@@ -55,7 +55,7 @@ Date of finished: ...
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/13.jpg)
 
-12. Последняя настройка WireGuard. Добавили ip адрес.
+12. Последняя настройка WireGuard. Добавили ip адрес и созданный интерфейс.
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/14.jpg)
 
@@ -63,7 +63,7 @@ Date of finished: ...
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/15.jpg)
 
-14. Проверили существование VPN тунеля между машинами при помощи ping.
+14. Проверили существование VPN тунеля между машинами при помощи ping. Пинг проходит, значит все настройки выполнены корректно.
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/16.jpg)
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/17.jpg)
