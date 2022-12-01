@@ -27,5 +27,16 @@ Date of finished: ...
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/8.jpg)
 8. Возникли проблемы с правами при переходе в папку Wireguard, они были решены. Создана пара приватного и публичного ключа. Публичный ключ нам понадобиться для настройки MikroTik через WinBox.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/10.jpg)
-9. Далее был настроен Interface и Peer wireguard на удаленной виртуальной машине. ListenPort взяли любой свободный порт, приватный ключ взяли из прошлого шага. Публичный ключ(ключ CHR) сгенерировали при помощи WinBox и вставили сюда.
+9. Далее был настроен wg0.conf Interface и Peer wireguard на удаленной виртуальной машине. ListenPort взяли любой свободный порт, приватный ключ взяли из прошлого шага. Публичный ключ(ключ CHR) сгенерировали при помощи WinBox и вставили сюда.
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/11.jpg)
+10. При помощи WinBox настроили Interface WireGuard на CHR машине. Сгенерировали пару ключей ListenPort использовали такойже, как в предыдущем шаге.
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/12.jpg)
+11. При помощи WinBox настроили Peer WireGuard на CHR машине. Публичный ключи взяли из сгенерирована ключа на удаленной виртуальной машине. 
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/13.jpg)
+12. Последняя настройка WireGuard. Добавили ip адрес.
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/14.jpg)
+13. На удаленной виртуальной машине активирован сервис. Из CHR пропингована удаленная машина по внутреннему Ip туннеля, для того чтобы Wireguard клиент начал отправлять keepalive пакеты для поддержки существования туннеля.
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/15.jpg)
+14. Проверили существование VPN тунеля между машинами при помощи ping.
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/16.jpg)
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab1/screenshots/17.jpg)
