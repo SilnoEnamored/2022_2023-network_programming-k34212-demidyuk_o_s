@@ -57,6 +57,30 @@ Date of finished: ...
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/19.jpg)
 
+9. Проверена работа OSPF, в случае корректной работоспособности роутеры будут видеть друг друга как соседи.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/20.jpg)
+
+10. Создан плейбук collect.yml. Он предназначен для сбора данных по OSPF и полного конфига сразу двух CHR машин, после чего конфигурация сохранена в файлы r1.jason и r2.jason. 
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/30.jpg)
+
+11. Не удалось успешно запустить плейбук. Нет прав создавать файлы конфигурации.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/24.jpg)
+
+12. С помощью chmod исправили ситуацию. Плейбук выполнен успешно.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/25.jpg)
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/26.jpg)
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/27.jpg)
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/28.jpg)
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/29.jpg)
+
 
 
 
