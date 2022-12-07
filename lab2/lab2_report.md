@@ -27,3 +27,16 @@ Date of finished: ...
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/6.jpg)
 
+3. Ansible работает через ssh, поэтому для начала его стоит натсроить на обоих CHR. 
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/7.jpg)
+
+4. Осуществлена первая настройка Ansible, создана директория, добавлен файл hosts.ini с ip роутеров.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/9.jpg)
+
+5. Создан первый плейбук playbook.yaml
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/8.jpg)
+
+
