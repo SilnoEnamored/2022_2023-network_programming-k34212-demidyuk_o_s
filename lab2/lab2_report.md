@@ -81,6 +81,14 @@ Date of finished: ...
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/29.jpg)
 
+13. Составлена система сети.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab2/screenshots/31.jpeg)
+
+Вывод: В ходе выполнения работы был создан ещё один CHR. Были получены навыки составления плейбуков. После чего с помощью Ansible была проведена настройка обоих CHR, созданы пользоваетели, настроент NTP-клиент, OSPF.
+
+
+
 
 
 
