@@ -1,0 +1,32 @@
+- name: Change Router Settings
+  hosts: routers
+  gather_facts: false
+  tasks:
+
+    - name: Getting devices data from Netbox
+      set_fact:
+        devices: "{{ query('netbox.netbox.nb_lookup', 'ip-addresses',
+                        api_endpoint='https://10.10.0.2',
+                        api_filter='tag=add',
+                        token='8efb6909e2557fa040ff0f59bb52bc5e572a1b69',
+                        validate_certs=false) }}"
+        index: "{{ groups['routers'].index(inventory_hostname) | int }}"
+
+    - name: SAVE DATA TO VARIABLES
+      set_fact:
+        router_name: "{{ devices[index | int].value.assigned_object.device.name }}"
+        router_ip: "{{ devices[index | int].value.address }}"
+
+    - name: SET ROUTERS' NAME AND ADD IPs ACCORDINGLY
+      routeros_command:
+        commands:
+          - /ip/address/print detail
+          - /ip/address/add address={{ router_ip }} interface=ether2
+          - /ip/address/print detail
+          - /system/identity/set name="{{ router_name }}"
+          - /system/identity/print
+       register: output
+
+    - name: CHECK FOR NEW NAME AND IP
+      debug:
+        var: output.stdout_lines
