@@ -4,8 +4,8 @@ Course: [Network programming](https://github.com/itmo-ict-faculty/network-progra
 Year: 2022/2023  
 Group: K34212  
 Author: Demidyuk Oleg Sergeevich  
-Lab: Lab2  
-Date of create: 11.12.2022  
+Lab: Lab3  
+Date of create: 12.12.2022  
 Date of finished: ...
 
 Цель работы:С помощью Ansible и Netbox собрать всю возможную информацию об устройствах и сохранить их в отдельном файле.
