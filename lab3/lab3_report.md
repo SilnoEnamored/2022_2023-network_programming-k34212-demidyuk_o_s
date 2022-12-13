@@ -45,3 +45,33 @@ sudo ansible-playbook collect_netbox.yml -i hosts.in
 ```
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/11.jpg)
 
+5. Написан и запущен плейбук, который изменяет имя и добавляет Ip адрес на роутеры. Так же сверяет их до и после запуска. 
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/12.jpg)
+```
+sudo ansible-playbook changed.yml -i hosts.ini
+```
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/13.jpg)
+
+6. Написан и запущен плейбук, который собирает сериёные номера роутеров и добавляет их в Nebox.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/14.jpg)
+```
+sudo ansible-playbook serialnumber.yml -i hosts.ini
+```
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/15.jpg)
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/16.jpg)
+
+7. Теперь у роутеров в Netbox появился серийный номер.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/17.jpg)
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/18.jpg)
+
+8. Обновлена схема сети.
+ 
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/19.jpg)
+
+Вывод:
+Была создана ещё одна виртуальная машина на Ubuntu 20.04 c Netbox, проложен Wireguard тунель к основной машине. Познакомились с инстурментом документирования сетей Netbox. С помощью Ansible и Netbox были настроены обе CHR машины. 
