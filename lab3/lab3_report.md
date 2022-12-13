@@ -12,3 +12,5 @@ Date of finished: ...
 
 Ход работы:
 1.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/1.jpg)
