@@ -71,7 +71,7 @@ sudo ansible-playbook serialnumber.yml -i hosts.ini
 
 8. Обновлена схема сети.
  
-![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/19.jpg)
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/19.jpeg)
 
 Вывод:
 Была создана ещё одна виртуальная машина на Ubuntu 20.04 c Netbox, проложен Wireguard тунель к основной машине. Познакомились с инстурментом документирования сетей Netbox. С помощью Ansible и Netbox были настроены обе CHR машины. 
