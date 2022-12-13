@@ -1,0 +1,3 @@
+Name,Status,Tenant,Site,Location,Rack,Role,Manufacturer,Type,IP Address,ID,Tenant Group,Platform,Serial number,Asset tag,Region,Site Group,Position (U),Rack face,Airflow,IPv4 Address,IPv6 Address,Cluster,Virtual chassis,VC Position,VC Priority,Comments,Contacts,Tags,Created,Last updated
+R1,Active,,WireGuard,,CHRs,Router,MikroTik,RouterOS7,10.10.0.102/24,1,,,,,,,,,,10.10.0.102/24,,,,,,,,,2022-12-12 21:15,2022-12-12 21:16
+R2,Active,,WireGuard,,CHRs,Router,MikroTik,RouterOS7,10.10.0.103/24,2,,,,,,,,,,10.10.0.103/24,,,,,,,,,2022-12-12 21:15,2022-12-12 21:17
