@@ -33,3 +33,10 @@ Date of finished: ...
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/7.jpg)
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/8.jpg)
+
+4. Далее используя Ansible нам необходимо сохранить все данные в отдельный файл. Для этого меняем файл hosts.ini, добавляя группу [Netbox]. Создаем плейбук collect_netbox.yml. Запускаем плейбук. 
+```
+sudo ansible-playbook collect_netbox.yml -i hosts.in
+```
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab3/screenshots/9.jpg)
