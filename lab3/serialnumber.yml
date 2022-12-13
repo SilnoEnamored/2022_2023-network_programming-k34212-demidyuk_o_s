@@ -1,0 +1,30 @@
+- name: Get Routers Serial Number 
+  hosts: routers
+  gather_facts: false
+  tasks:
+
+  - name: Get Serial Number
+    community.routeros.command:
+      commands:
+        - /system/license/print
+    register: output
+
+  - name: Print Serial Number
+    debug:
+      var: output.stdout_lines
+  - name: SAVE DATA TO VARIABLES
+    set_fact:
+      index: "{{ groups['routers'].index(inventory_hostname) | int }}"
+      devices: "{{ query('netbox.netbox.nb_lookup', 'devices',
+                        api_endpoint='https://10.10.0.2',
+                        token='8efb6909e2557fa040ff0f59bb52bc5e572a1b69',
+                        validate_certs=false) }}"
+
+  - name: Populate Netbox 
+    netbox_device:
+      netbox_url: https://10.10.0.2
+      netbox_token: 8efb6909e2557fa040ff0f59bb52bc5e572a1b69
+      data:
+        name: "{{ devices[index | int].value.name }}"
+        serial: "{{ output.stdout_lines[0][0] | regex_replace('system-id:', '')}}"
+      validate_certs: false
