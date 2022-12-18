@@ -79,7 +79,7 @@ make run
   
   ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/13.jpg)
   
- 2.2 Ещё раз сконфигурирована сеть при помози Makefile и проверена связть хостов.
+ 2.2 Ещё раз сконфигурирована сеть при помощи Makefile и проверена связть хостов.
  ```
  pingall
  ```
