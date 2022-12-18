@@ -24,3 +24,15 @@ vagrant provision
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/2.jpg)
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/3.jpg)
+
+1.3 Выполнен вход в учётную запись p4/p4. Выполнена первичная конфигурация сети "Basic Forwarding" при помощи Makefile. После этого запускается mininet схема.
+```
+make build
+make run
+```
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/4.jpg)
+
+Проверяем пинг между хостами сети, свзязь не удалась, так как файл basic.p4 необходимо отредактировать.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/5.jpg)
+
