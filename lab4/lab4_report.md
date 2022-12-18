@@ -37,6 +37,7 @@ make run
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/5.jpg)
 
 1.4 Далее приступаем к редактированию файла basic.p4, реализующий базовую переадресацию. Неполный стартовый код программы отбрасывает все пакеты.
+
 Добавлены парсинги для ethernet и ipv4.
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/6.jpg)
@@ -65,6 +66,7 @@ make run
  ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/15.jpg)
  
  2.1 Отредактирован файл basic_tunnel.p4 для корректной работы конфигурации сети "Basic Tunneling". Добавлена поддержка базового протокола туннелирования в IP-маршрутизатор, который выполнили в предыдущем задании. Определён новый тип заголовка для инкапсуляции IP-пакета. Программа определияет порт назначения, используя новый заголовок туннеля.
+ 
  Добавлен парсинг myTunnel.
  
   ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/11.jpg)
