@@ -4,7 +4,7 @@ Course: [Network programming](https://github.com/itmo-ict-faculty/network-progra
 Year: 2022/2023  
 Group: K34212  
 Author: Demidyuk Oleg Sergeevich  
-Lab: Lab3  
+Lab: Lab4 
 Date of create: 18.12.2022  
 Date of finished: ...
 
