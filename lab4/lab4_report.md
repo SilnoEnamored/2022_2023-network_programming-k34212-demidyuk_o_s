@@ -36,3 +36,30 @@ make run
 
 ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/5.jpg)
 
+1.4 Далее приступаем к редактированию файл basic.p4.
+Добавлены парсеры для ethernet и ipv4.
+
+![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/6.jpg)
+ 
+ Добавлена логика для пересылка ipv4 пакетов, которая устанавливает выходной порт, обновляет MAC адрес назначения и исходный, уменьшает значение ttl.
+ 
+ ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/7.jpg)
+ 
+ Добавлена проверка ipv4 пакета. 
+ 
+ ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/8.jpg)
+ 
+ Добавлен депарсинг заголовков ethernet и ipv4.
+ 
+ ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/9.jpg)
+ 
+ Затем заново сконфигурирована сеть при помощи Makefile и проверена связь хостов.
+ ```
+ pingall
+ ```
+ 
+ ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/10.jpg)
+ 
+ 1.5 Схема сети basic.p4 Basic Forwarding.
+
+ ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/15.jpg)
