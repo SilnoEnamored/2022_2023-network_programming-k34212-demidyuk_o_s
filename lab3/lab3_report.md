@@ -6,7 +6,7 @@ Group: K34212
 Author: Demidyuk Oleg Sergeevich  
 Lab: Lab3  
 Date of create: 12.12.2022  
-Date of finished: ...
+Date of finished: 13.12.2022
 
 Цель работы:С помощью Ansible и Netbox собрать всю возможную информацию об устройствах и сохранить их в отдельном файле.
 
