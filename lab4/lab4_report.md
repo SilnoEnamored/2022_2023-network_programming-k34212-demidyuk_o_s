@@ -87,7 +87,10 @@ make run
  
  Проверена работа работа сети через receive.py и sendy.py, а также работа туннелирования через id назначения.
  
+ Пинг с первого напрямую второй 
  ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/19.jpg)
+ 
+ Пинг с первого на третий, запрос идёт через второй 
  
  ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/18.jpg)
  
