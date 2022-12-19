@@ -89,6 +89,8 @@ make run
  
  ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/17.jpg)
  
+ ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/18.jpg)
+ 
  2.3 Схема сети basic_tunnel.p4 Basic Tunneling.
  
  ![Image text](https://github.com/SilnoEnamored/2022_2023-network_programming-k34212-demidyuk_o_s/raw/main/lab4/screenshots/16.jpg)
